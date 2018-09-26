@@ -1,0 +1,105 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 1024px;   
+}
+ div.container {
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.row1 {
+    width: 100%;
+    border-color: #727271;
+    border: 1px;
+    border-style: solid;
+    margin: 15px 0px 15px 0px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+div.row0 {
+    width: 100%;
+    padding: 0px;
+    margin: 15px 0px 15px 0px;
+    box-sizing: border-box;
+}
+div.row0 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+div.row0 table tr td.column1 {
+    width: 60%;
+    vertical-align: baseline;
+}
+div.row0 table tr td.column2 {
+    width: 40%;
+    vertical-align: baseline;
+    text-align: right;
+}
+div.row0 table tr td.column1 img{
+    width: 97%;
+}
+div.row0 table tr td.column2 img{
+    width: 97%;
+}
+div.row1 table {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-collapse: collapse;
+}
+div.row1 table tr td.column1  {
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+}
+div.row1 table tr td.column2  {
+    width: 54.8%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 15px;
+}
+div.row1 table tr td.column3  { 
+    width: 25.2%;
+    border-bottom-color: #727271;
+    border: 1px;
+    border-style: solid;
+    font-weight: 600;
+    font-size: 120%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2B2A28;
+}
+div.row1 table tr td.column2 div.head {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 160%;
+    color: #2E2D2B;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.row1 table tr td.column2 div ul{
+    padding: 5px 18px 0px 18px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78%;
+}
+div.row1 table tr td.column1 img {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
